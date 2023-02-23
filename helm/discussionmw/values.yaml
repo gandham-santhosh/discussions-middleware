@@ -15,14 +15,14 @@
 ## If you provide a value to the variable, then that will have the highest precedence
 ## If you don't provide a value, then it's fetched from another object
 API_AUTH_TOKEN: ""
-  authorization_token: ""
+authorization_token: ""
 
 ## This section has variables with default values
 ## These are standard defaults that work well
 ## You can override these if you have a use case for it
 TELEMETRY_EVENTS_BATCH_SIZE: "1"
 TELEMETRY_SERVICE_API_SLUG: "/v1/telemetry"
-TELEMETRY_SERVICE_URL: "http://telemetry-service:9001"
+TELEMETRY_SERVICE_URL: "http://telemetry.svc.cluster.local:9001"
 enable_audit_event: True 
 moderation_flag: False
 nodebb_api_slug: "/discussions/api"
